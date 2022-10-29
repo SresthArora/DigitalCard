@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  margin-top: 2rem;
+  max-width: 317px;
+  margin-left: 550px;
+  height: 890px;
+  /*overflow: auto; */
+  background-color: #1a1b21;
+  text-align: center;
+  border-radius: 8px;
+}
+.card-img {
+  width: 317px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+.card-title {
+  width: 178.06px;
+  height: 25.81px;
+  margin-left: 60px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 2;
+}
+.card-profession {
+  color: #f3bf99;
+  line-height: 2;
+  margin-top: 10px;
+}
+.card-website {
+  color: #f5f5f5;
+  font-size: 10.24px;
+  line-height: 1.5;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.email-btn a,
+.linkedin-btn a {
+  text-decoration: none;
+  color: #000;
+}
+.email-btn,
+.linkedin-btn {
+  background-color: #fff;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  margin-right: 16px;
+}
+.linkedin-btn {
+  background: #59a1f4;
+  border: none;
+}
+.linkedin-btn a {
+  color: #fff;
+}
+.about-parent,
+.interest-parent {
+  width: 270px;
+  color: #f4f4f4;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-style: normal;
+  text-align: left;
+  margin: 30px 0 0 30px;
+  margin-bottom: 30px;
+}
+.about-title,
+.interest-title {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.twitter {
+  background-color: #1a1b21;
+  margin: 30px;
+}
